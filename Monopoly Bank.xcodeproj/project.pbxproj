@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404D33D99F3A0A0A5D5CDC0A /* Pods_Monopoly_Bank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424C6C87C2967EF93FBBED3A /* Pods_Monopoly_Bank.framework */; };
+		BB41D81B1D37157D003B878F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB41D81A1D37157D003B878F /* Storyboard.storyboard */; };
+		BB41D81D1D376A43003B878F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB41D81C1D376A43003B878F /* GoogleService-Info.plist */; };
+		BB8F8B251D367A5F00647791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F8B241D367A5F00647791 /* AppDelegate.swift */; };
+		BB8F8B271D367A5F00647791 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F8B261D367A5F00647791 /* FirstViewController.swift */; };
+		BB8F8B291D367A5F00647791 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F8B281D367A5F00647791 /* SecondViewController.swift */; };
+		BB8F8B2E1D367A6000647791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB8F8B2D1D367A6000647791 /* Assets.xcassets */; };
+		BB8F8B311D367A6000647791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8F8B2F1D367A6000647791 /* LaunchScreen.storyboard */; };
+		BB8F8B3C1D367A6000647791 /* Monopoly_BankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F8B3B1D367A6000647791 /* Monopoly_BankTests.swift */; };
+		BB8F8B471D367A6000647791 /* Monopoly_BankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F8B461D367A6000647791 /* Monopoly_BankUITests.swift */; };
+		BB96DAF81D39D91000206B01 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96DAF71D39D91000206B01 /* MainMenuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB8F8B381D367A6000647791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8F8B191D367A5F00647791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8F8B201D367A5F00647791;
+			remoteInfo = "Monopoly Bank";
+		};
+		BB8F8B431D367A6000647791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8F8B191D367A5F00647791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8F8B201D367A5F00647791;
+			remoteInfo = "Monopoly Bank";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		424C6C87C2967EF93FBBED3A /* Pods_Monopoly_Bank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Monopoly_Bank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E434AF22F376296A4A329CC /* Pods-Monopoly Bank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monopoly Bank.release.xcconfig"; path = "Pods/Target Support Files/Pods-Monopoly Bank/Pods-Monopoly Bank.release.xcconfig"; sourceTree = "<group>"; };
+		BB41D81A1D37157D003B878F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		BB41D81C1D376A43003B878F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB8F8B211D367A5F00647791 /* Monopoly Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monopoly Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8F8B241D367A5F00647791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB8F8B261D367A5F00647791 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BB8F8B281D367A5F00647791 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BB8F8B2D1D367A6000647791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB8F8B301D367A6000647791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB8F8B321D367A6000647791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8F8B371D367A6000647791 /* Monopoly BankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monopoly BankTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8F8B3B1D367A6000647791 /* Monopoly_BankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monopoly_BankTests.swift; sourceTree = "<group>"; };
+		BB8F8B3D1D367A6000647791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8F8B421D367A6000647791 /* Monopoly BankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monopoly BankUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8F8B461D367A6000647791 /* Monopoly_BankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monopoly_BankUITests.swift; sourceTree = "<group>"; };
+		BB8F8B481D367A6000647791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB96DAF71D39D91000206B01 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		E1E2E19B476D3330DDB25463 /* Pods-Monopoly Bank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monopoly Bank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Monopoly Bank/Pods-Monopoly Bank.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB8F8B1E1D367A5F00647791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404D33D99F3A0A0A5D5CDC0A /* Pods_Monopoly_Bank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8F8B341D367A6000647791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8F8B3F1D367A6000647791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81EBC6A8FAD372A9848E5251 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1E2E19B476D3330DDB25463 /* Pods-Monopoly Bank.debug.xcconfig */,
+				7E434AF22F376296A4A329CC /* Pods-Monopoly Bank.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A040D6132C0A47EB90F05015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				424C6C87C2967EF93FBBED3A /* Pods_Monopoly_Bank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB8F8B181D367A5F00647791 = {
+			isa = PBXGroup;
+			children = (
+				BB8F8B231D367A5F00647791 /* Monopoly Bank */,
+				BB8F8B3A1D367A6000647791 /* Monopoly BankTests */,
+				BB8F8B451D367A6000647791 /* Monopoly BankUITests */,
+				BB8F8B221D367A5F00647791 /* Products */,
+				81EBC6A8FAD372A9848E5251 /* Pods */,
+				A040D6132C0A47EB90F05015 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB8F8B221D367A5F00647791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB8F8B211D367A5F00647791 /* Monopoly Bank.app */,
+				BB8F8B371D367A6000647791 /* Monopoly BankTests.xctest */,
+				BB8F8B421D367A6000647791 /* Monopoly BankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB8F8B231D367A5F00647791 /* Monopoly Bank */ = {
+			isa = PBXGroup;
+			children = (
+				BB41D81C1D376A43003B878F /* GoogleService-Info.plist */,
+				BB8F8B241D367A5F00647791 /* AppDelegate.swift */,
+				BB8F8B261D367A5F00647791 /* FirstViewController.swift */,
+				BB8F8B281D367A5F00647791 /* SecondViewController.swift */,
+				BB96DAF71D39D91000206B01 /* MainMenuViewController.swift */,
+				BB8F8B2D1D367A6000647791 /* Assets.xcassets */,
+				BB8F8B2F1D367A6000647791 /* LaunchScreen.storyboard */,
+				BB8F8B321D367A6000647791 /* Info.plist */,
+				BB41D81A1D37157D003B878F /* Storyboard.storyboard */,
+			);
+			path = "Monopoly Bank";
+			sourceTree = "<group>";
+		};
+		BB8F8B3A1D367A6000647791 /* Monopoly BankTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB8F8B3B1D367A6000647791 /* Monopoly_BankTests.swift */,
+				BB8F8B3D1D367A6000647791 /* Info.plist */,
+			);
+			path = "Monopoly BankTests";
+			sourceTree = "<group>";
+		};
+		BB8F8B451D367A6000647791 /* Monopoly BankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB8F8B461D367A6000647791 /* Monopoly_BankUITests.swift */,
+				BB8F8B481D367A6000647791 /* Info.plist */,
+			);
+			path = "Monopoly BankUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB8F8B201D367A5F00647791 /* Monopoly Bank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8F8B4B1D367A6000647791 /* Build configuration list for PBXNativeTarget "Monopoly Bank" */;
+			buildPhases = (
+				A71EFA9850A32C122B56B3CE /* [CP] Check Pods Manifest.lock */,
+				BB8F8B1D1D367A5F00647791 /* Sources */,
+				BB8F8B1E1D367A5F00647791 /* Frameworks */,
+				BB8F8B1F1D367A5F00647791 /* Resources */,
+				DB82E2778AE9DDDD18D10761 /* [CP] Embed Pods Frameworks */,
+				272B2DF687B9903666F6CDA8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monopoly Bank";
+			productName = "Monopoly Bank";
+			productReference = BB8F8B211D367A5F00647791 /* Monopoly Bank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB8F8B361D367A6000647791 /* Monopoly BankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8F8B4E1D367A6000647791 /* Build configuration list for PBXNativeTarget "Monopoly BankTests" */;
+			buildPhases = (
+				BB8F8B331D367A6000647791 /* Sources */,
+				BB8F8B341D367A6000647791 /* Frameworks */,
+				BB8F8B351D367A6000647791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8F8B391D367A6000647791 /* PBXTargetDependency */,
+			);
+			name = "Monopoly BankTests";
+			productName = "Monopoly BankTests";
+			productReference = BB8F8B371D367A6000647791 /* Monopoly BankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB8F8B411D367A6000647791 /* Monopoly BankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8F8B511D367A6000647791 /* Build configuration list for PBXNativeTarget "Monopoly BankUITests" */;
+			buildPhases = (
+				BB8F8B3E1D367A6000647791 /* Sources */,
+				BB8F8B3F1D367A6000647791 /* Frameworks */,
+				BB8F8B401D367A6000647791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8F8B441D367A6000647791 /* PBXTargetDependency */,
+			);
+			name = "Monopoly BankUITests";
+			productName = "Monopoly BankUITests";
+			productReference = BB8F8B421D367A6000647791 /* Monopoly BankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB8F8B191D367A5F00647791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HashimJawad;
+				TargetAttributes = {
+					BB8F8B201D367A5F00647791 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MBQ97L7Z6N;
+					};
+					BB8F8B361D367A6000647791 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BB8F8B201D367A5F00647791;
+					};
+					BB8F8B411D367A6000647791 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BB8F8B201D367A5F00647791;
+					};
+				};
+			};
+			buildConfigurationList = BB8F8B1C1D367A5F00647791 /* Build configuration list for PBXProject "Monopoly Bank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB8F8B181D367A5F00647791;
+			productRefGroup = BB8F8B221D367A5F00647791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB8F8B201D367A5F00647791 /* Monopoly Bank */,
+				BB8F8B361D367A6000647791 /* Monopoly BankTests */,
+				BB8F8B411D367A6000647791 /* Monopoly BankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB8F8B1F1D367A5F00647791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB41D81D1D376A43003B878F /* GoogleService-Info.plist in Resources */,
+				BB8F8B311D367A6000647791 /* LaunchScreen.storyboard in Resources */,
+				BB41D81B1D37157D003B878F /* Storyboard.storyboard in Resources */,
+				BB8F8B2E1D367A6000647791 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8F8B351D367A6000647791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8F8B401D367A6000647791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		272B2DF687B9903666F6CDA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Monopoly Bank/Pods-Monopoly Bank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71EFA9850A32C122B56B3CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB82E2778AE9DDDD18D10761 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Monopoly Bank/Pods-Monopoly Bank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB8F8B1D1D367A5F00647791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB96DAF81D39D91000206B01 /* MainMenuViewController.swift in Sources */,
+				BB8F8B291D367A5F00647791 /* SecondViewController.swift in Sources */,
+				BB8F8B251D367A5F00647791 /* AppDelegate.swift in Sources */,
+				BB8F8B271D367A5F00647791 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8F8B331D367A6000647791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8F8B3C1D367A6000647791 /* Monopoly_BankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8F8B3E1D367A6000647791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8F8B471D367A6000647791 /* Monopoly_BankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB8F8B391D367A6000647791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8F8B201D367A5F00647791 /* Monopoly Bank */;
+			targetProxy = BB8F8B381D367A6000647791 /* PBXContainerItemProxy */;
+		};
+		BB8F8B441D367A6000647791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8F8B201D367A5F00647791 /* Monopoly Bank */;
+			targetProxy = BB8F8B431D367A6000647791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB8F8B2F1D367A6000647791 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8F8B301D367A6000647791 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB8F8B491D367A6000647791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB8F8B4A1D367A6000647791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB8F8B4C1D367A6000647791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E2E19B476D3330DDB25463 /* Pods-Monopoly Bank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Monopoly Bank/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HashimJawad.Monopoly-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				"SWIFT_OBJC_INTERFACE_HEADER_NAME[arch=*]" = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BB8F8B4D1D367A6000647791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E434AF22F376296A4A329CC /* Pods-Monopoly Bank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Monopoly Bank/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HashimJawad.Monopoly-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BB8F8B4F1D367A6000647791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Monopoly BankTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HashimJawad.Monopoly-BankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monopoly Bank.app/Monopoly Bank";
+			};
+			name = Debug;
+		};
+		BB8F8B501D367A6000647791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Monopoly BankTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HashimJawad.Monopoly-BankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monopoly Bank.app/Monopoly Bank";
+			};
+			name = Release;
+		};
+		BB8F8B521D367A6000647791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Monopoly BankUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HashimJawad.Monopoly-BankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Monopoly Bank";
+			};
+			name = Debug;
+		};
+		BB8F8B531D367A6000647791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Monopoly BankUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HashimJawad.Monopoly-BankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Monopoly Bank";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB8F8B1C1D367A5F00647791 /* Build configuration list for PBXProject "Monopoly Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8F8B491D367A6000647791 /* Debug */,
+				BB8F8B4A1D367A6000647791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8F8B4B1D367A6000647791 /* Build configuration list for PBXNativeTarget "Monopoly Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8F8B4C1D367A6000647791 /* Debug */,
+				BB8F8B4D1D367A6000647791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8F8B4E1D367A6000647791 /* Build configuration list for PBXNativeTarget "Monopoly BankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8F8B4F1D367A6000647791 /* Debug */,
+				BB8F8B501D367A6000647791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8F8B511D367A6000647791 /* Build configuration list for PBXNativeTarget "Monopoly BankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8F8B521D367A6000647791 /* Debug */,
+				BB8F8B531D367A6000647791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB8F8B191D367A5F00647791 /* Project object */;
+}
